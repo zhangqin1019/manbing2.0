@@ -1,0 +1,24 @@
+/*主体样式*/
+.main-content{width: 100%;height: 100%;background: #FFF;}
+
+/*处理列表*/
+.content-top{border-top: 4px solid #E7E9EB;width: 100%;height: 44px;background: #FFF;color: #656565;}
+.detail-list{border-bottom:1px solid #E9EAEA;width: 100%;height: 43px;}
+.detail-list span{float: left;line-height: 44px;margin-left: 17px;margin-right: 23px;}
+.t-d-sel{padding-left: 9px;border: 1px solid #DDDDDD;color: #656565;border-radius: 4px;margin-top: 7px;margin-left: 10px;float: left;width: 110px;height: 30px;font-size: 14px;}
+.sel-m{width: 70px;}
+.t-d-sel-m{width: 70px;}
+.detail-list a{display: inline-block;border-radius: 4px;text-align: center;line-height: 30px;margin-top: 7px;margin-left: 10px;width: 70px;height: 30px;color: #999999;background: #E7E9EB;float: left;}
+.detail-list i{margin-right: 4px;}
+
+/*表格内容*/
+.content-bottom{margin: 20px 6px 16px;}
+.c-t-tab{font-size: 14px;width: 100%;text-align: center;}
+.c-t-tab thead tr td{border-bottom: 1px solid #E7EAEC;}
+.c-t-tab tbody tr td{border-bottom: 1px solid #E7EAEC;}
+.c-t-tab tr td{height: 37px;}
+.c-t-tab thead{border-bottom: 2px solid #E7EAEC;font-weight:bold;background: #E7E9EB;color: #656565;}
+.c-t-tab tbody{color: #656565;}
+.c-t-tab tbody tr:nth-child(odd){background: #F9F9F9;}
+.c-t-tab tbody tr:hover{background: #d8e3ec;}
+#page{text-align: center;}

@@ -1,0 +1,57 @@
+/*按钮样式*/
+.ft-button{width: 100%;margin-left: 20px;position: relative;z-index: 1;}
+.ft-bt-item{width: 100%;margin: 5px 0;}
+.ft-btn{width: 100%;}
+.ft-btn-color{width: 100px;height: 30px;line-height: 30px;border-radius: 5px;outline: none;}
+.btn-default{background-color: #fff;;border: 1px solid #c7d3d6;}
+.btn-default:hover{background-color: #EDF1F2;cursor: pointer;}
+.btn-primary{color: white;background-color:#6254B2;opacity: 0.9;border: 1px solid #6254B2;}
+.btn-primary:hover{cursor: pointer;opacity: 1.0;}
+.btn-success{color: white;background-color: #23AD44;opacity: 0.9;border: 1px solid #23AD44;}
+.btn-success:hover{cursor: pointer;opacity: 1.0;}
+.btn-info{color: white;background-color:#19A9D5;opacity: 0.9;border: 1px solid #19A9D5;}
+.btn-info:hover{opacity: 1.0;cursor: pointer;}
+.btn-waring{color: white;background-color: #F9D21A;opacity: 0.9;border: 1px solid #F9D21A;}
+.btn-waring:hover{opacity: 1.0;cursor: pointer;}
+.btn-danger{color: white;background-color: #EE3939;opacity: 0.9;border: 1px solid #EE3939;}
+.btn-danger:hover{opacity: 1.0;cursor: pointer;}
+
+/* 按钮大小 */
+.ft-btn-size{outline: none;border-radius: 3px;padding: 0 10px;}
+.btn-lg{height: 45px;line-height: 45px;}
+.btn-df{height: 30px;line-height: 30px;}
+.btn-sm{height: 25px;line-height:25px;}
+.btn-xs{height: 20px;line-height: 20px;}
+
+
+/* 字体大小 */
+.btn-dropDown-lg{font-size: 18px;padding-left:15px;}
+.btn-dropDown-df{font-size:16px;padding-left:15px;}
+.btn-dropDown-sm{font-size: 14px;padding-left:15px;}
+
+
+/* 按钮颜色 */
+.btn-circle-lg{font-size: 18px;font-weight:bolder;color: white;width:45px;height:45px;line-height: 45px;border-radius: 22.5px;outline: none;}
+.btn-circle-df{font-size:16px;font-weight: bolder;color: white;width: 40px;height: 40px;line-height: 40px;border-radius: 20px;outline: none;}
+.btn-circle-sm{font-size: 14px;font-weight: bolder;color: white;width: 30px;height: 30px;line-height: 30px;border-radius: 15px;outline: none;}
+
+
+
+/* 对齐方式 */
+.btn-buttonSet{font-size: 14px;font-weight: bold;color: #666;width:3%;height: 30px;line-height: 30px;text-align:center;background-color: #f8f8f8;border: 1px solid #666;}
+.btn-center{border-right: none;border-left: none;}
+.btn-left{border-radius: 3px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;}
+.btn-right{border-radius: 3px;border-top-left-radius: 0px;border-bottom-left-radius: 0px;}
+
+
+
+/*相册查看器样式*/
+.main-photo{width: 100%;height: 100%;margin: 0px;padding: 0;}
+.photo{width: 1200px;height: 625px;margin: 20px auto;z-index: 1;position: relative;}
+.photo a{text-decoration: none;margin: 0px;padding: 0px;}
+.photo a img{width: 280px;height: 180px;margin: 20px 12px 0px 0px;}
+.total{width: 100%;height: 100%;background-color: rgba(0,0,0,0.5);position:absolute;left:0;top:0;display: none;z-index: 9;}
+.total .picture{width: 550px;height: 370px;position: absolute;left: 30%;top:20%;}
+.total .picture img{width: 550px;height: 370px;}
+.total .picture span{display: block;width: 15px;height: 15px;position: absolute;right: 0px;top: 0px;background-color: #fff;color: black;cursor: pointer;text-align: center;}
+

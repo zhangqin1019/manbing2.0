@@ -1,0 +1,14 @@
+.role{width: 650px;background: #FFF;margin: 47px auto 0;position: relative;}
+.role-contant{margin-top: 32px;margin-left: 60px;}
+.box{width: 223px;height: 424px;float: left;border: 1px solid #ddd;}
+.role-warp{float: left;width: 225px;}
+.role-warp h4{font-size: 16px;color: #666666;text-align: center;margin-bottom: 10px;}
+.middleBox{width: 88px;padding: 203px 0 0 0;}
+.middleBox .btn{display: block;color: #B7B7B7;margin: 0 0 16px 14px;font-size: 14px;width: 60px;height: 30px;background: #E9EBEB;border: 0;border-radius: 4px;}
+.middleBox .btn i{font-size: 14px;}
+.middleBox .btn:hover{background: #F7FBFF;color: #C3DBFF;}
+.box span{display: block;width: 219px;height: 30px;font-size: 14px;color: #999999;line-height: 30px;padding-left: 4px;}
+.box span:hover{background: #F7FBFF;}
+.span-select{background: #F7FBFF;}
+.save{text-align: center;padding-bottom: 10px;width: 100%;display: block;margin-top: 24px;}
+.save .save-btn{width: 84px;height: 36px;background: #3B8BFF;color: #fff;cursor: pointer;font-size: 14px;border-radius: 4px;border: 0 solid #fff;}

@@ -1,0 +1,141 @@
+<link rel="stylesheet" type="text/css" href="../css/public.css">
+<link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+<link rel="stylesheet" type="text/css" href="../css/appointment.css">
+
+<!-- start content -->
+<div class="main-content">
+	<!-- start 处理列表 -->
+	<div class="content-top">
+		<div class="detail-list">
+			<span>查询</span>
+			<select class="t-d-sel">
+				<option value="">是否处理</option>
+				<option value="">处理描述</option>
+				<option value="">提醒方式</option>
+				<option value="">提醒分类</option>
+				<option value="">事件</option>
+				<option value="">量表模板</option>
+				<option value="">事件描述</option>
+				<option value="">提醒设置(来源)</option>
+				<option value="">来源表单</option>
+				<option value="">来源资料ID</option>
+				<option value="">相关表单</option>
+				<option value="">相关资料ID</option>
+				<option value="">科室病种</option>
+				<option value="">患者姓名</option>
+				<option value="">身份证号</option>
+				<option value="">门诊医生</option>
+				<option value="">门诊护士</option>
+				<option value="">是否仅提醒自己</option>
+				<option value="">开始时间</option>
+				<option value="">至</option>
+				<option value="">开始时段</option>
+				<option value="">是否全天</option>
+				<option value="">重复</option>
+				<option value="">提醒</option>
+				<option value="">说明</option>
+				<option value="">备忘录</option>
+				<option value="">是否提醒组织</option>
+				<option value="">是否提醒角色</option>
+			</select>
+			<select class="t-d-sel sel-m">
+				<option value="">等于</option>
+				<option value="">包含</option>
+			</select>
+			<select class="t-d-sel">
+				<option value="">未处理</option>
+				<option value="">已处理</option>
+			</select>
+			<a href="#" title="查询">
+				<i class="iconfont">&#xe651;</i>查询
+			</a>
+			<a href="#" title="全部">
+				<i class="iconfont">&#xe655;</i>全部
+			</a>
+		</div>
+	</div>
+	<!-- end 处理列表 -->
+	<!-- start 表格内容 -->
+	<div class="content-bottom fixed">
+		<table class="c-t-tab">
+			<thead>
+				<tr>
+					<td>是否处理</td>
+					<td>提醒方式</td>
+					<td>提醒分类</td>
+					<td>事件</td>
+					<td>患者姓名</td>
+					<td>身份证号</td>
+					<td>开始时间</td>
+					<td>开始时段</td>
+					<td>是否全天</td>
+					<td>资料ID</td>
+					<td>表单ID</td>
+					<td>创建时间</td>
+					<td>创建操作人员 </td>
+					<td>修改时间</td>
+				</tr>
+			</thead>
+			<tbody id="c-t-data">
+				<!-- <tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td>已经处理</td>
+					<td>预约</td>
+					<td>123</td>
+					<td>张三丰</td>
+					<td>660120***</td>
+					<td>2016-11-5</td>
+					<td></td>
+					<td>是</td>
+					<td></td>
+					<td></td>
+					<td>2016-12-25</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td>已经处理</td>
+					<td>预约</td>
+					<td>123</td>
+					<td>张三丰</td>
+					<td>660120***</td>
+					<td>2016-11-5</td>
+					<td></td>
+					<td>是</td>
+					<td></td>
+					<td></td>
+					<td>2016-12-25</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td>已经处理</td>
+					<td>预约</td>
+					<td>123</td>
+					<td>张三丰</td>
+					<td>660120***</td>
+					<td>2016-11-5</td>
+					<td></td>
+					<td>是</td>
+					<td></td>
+					<td></td>
+					<td>2016-12-25</td>
+					<td></td>
+					<td></td>
+				</tr> -->
+			</tbody>
+		</table>
+	</div>
+	<!-- end 表格内容 -->
+	<div id="page"></div>
+</div>
+<!-- end content -->
+<script type="text/javascript" src="../js/libs/require.js" data-main="../js/appointment"></script>

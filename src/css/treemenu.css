@@ -1,0 +1,19 @@
+.treemenu-head{line-height: 28px;width: 313px;height: 28px;background: #fff;margin: 8px 0 0 8px;border: 1px solid #CBCBCB;font-size: 14px;text-align:center;}
+.treemenu-head .t-h-add{float: left;border-right: 1px solid #CBCBCB;display: inline-block;width: 92px;height: 28px;color: #999999;}
+.treemenu-head .t-h-edit,.treemenu-head .t-h-del{float: left;border-right: 1px solid #CBCBCB;display: inline-block;width: 62px;height: 28px;color: #999999;}
+.treemenu-head .t-h-del{border-right: none;}
+.treemenu-head a i{line-height: 26px;margin-right: 4px;vertical-align: middle;display: inline-block;width: 16px;height: 16px;background: url(../images/menulist.png) no-repeat;}
+.treemenu-head a i.h-ico-edit{background: url(../images/menulist.png) no-repeat -16px 0;}
+.treemenu-head a i.h-ico-del{background: url(../images/menulist.png) no-repeat -32px 0;}
+.treemenu-content{width: 814px;height: 690px;background: #fff;margin-top: 23px;}
+.treemenu-content .t-c-h{width: 814px;height: 50px;border-top: 3px solid #E7E9EB;border-bottom: 1px solid #E9EBEB;}
+.treemenu-content .t-c-h h3{color: #656565;font-size: 18px;line-height: 50px;margin-left: 9px;}
+#menuTree{margin: 27px 0 0 81px;line-height: 25px;}
+#menuTree > li > a{font-size: 16px;color: #656565;}
+#menuTree > li > ul > li{font-size: 14px;color: #656565;margin-left: 19px;}
+#menuTree > li > ul > li > ul > li > ul{height: 0;}
+#menuTree > li > ul > li > ul > li{margin-left: 4px;}
+#menuTree > li > ul > li > ul > li > a{font-size: 14px;color: #999999;margin-left: 12px;}
+#menuTree .l{color: #000;font-style: normal;}
+#menuTree > li > ul > li > ul > li > a >.l{vertical-align: top;font-size: 10px;height: 10px;width: 8px;display: inline-block;border-bottom: 1px solid #000;border-left: 1px solid #000;}
+.border-left{border-left: 1px solid #000;}

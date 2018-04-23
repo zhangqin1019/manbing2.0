@@ -1,0 +1,9 @@
+/*以下是导航栏的样式*/
+.nav{width: 100%;}
+.nav-content{width: 95%;height: 30px;background-color: #f8f8f8;border-radius: 3px;}
+.nav-tabs li{float: left;line-height: 30px;padding: 0 25px;background-color: #f8f8f8;}
+.nav-tabs li.on{background-color: #337AB7;cursor: pointer;}
+.nav-tabs li a{color:#337AB7;font-weight: bolder;}
+.nav-tabs li.on a{color:white;}
+
+

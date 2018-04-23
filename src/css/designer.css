@@ -1,0 +1,39 @@
+*{box-sizing:border-box;}
+.designer{margin: 10px 10px 0 20px;}
+.tagline {position: relative;margin-top: 0;}
+.tagline-text {vertical-align: middle;}
+.__slackin {float: right;margin-left: 10px;vertical-align: middle;}
+.promo {margin-bottom: 0;font-style: italic;padding: 10px;background-color: #ff4020;border-bottom: 5px solid #c00;}
+.parent {background-color: rgba(255, 255, 255, 0.2);margin: 50px 0;padding: 20px;}
+.gh-fork {position: fixed;top: 0;right: 0;border: 0;}
+.container {width: 920px; min-height: 520px;margin-left: 210px;background: url(../images/bg_gz.png) repeat;background-size: 40px 40px;}
+.left-container {width: 200px;background-color: rgba(0, 0, 0, 0.2);float: left;}
+/*
+ * note that styling gu-mirror directly is a bad practice because it's too generic.
+ * you're better off giving the draggable elements a unique class and styling that directly!
+ */
+.left-container > .item-box{width: 100%;padding: 10px;background-color: rgba(0, 0, 0, 0.2);transition: opacity 0.4s ease-in-out;margin-bottom: 1px;}
+.container > .item-box,
+.gu-mirror {float: left;width: 100%;padding: 10px;height: 40px;background-color: rgba(0, 0, 0, 0.2);transition: opacity 0.4s ease-in-out;}
+.container > .item-box {cursor: move;cursor: grab;cursor: -moz-grab;cursor: -webkit-grab;}
+.gu-mirror {cursor: grabbing;cursor: -moz-grabbing;cursor: -webkit-grabbing;}
+.container .ex-moved {background-color: #e74c3c;}
+.container.ex-over {background-color: rgba(255, 255, 255, 0.3);}
+#left-lovehandles > div,
+#right-lovehandles > div {cursor: initial;}
+.handle {padding: 0 5px;margin-right: 5px;background-color: rgba(0, 0, 0, 0.4);cursor: move;}
+.image-thing {margin: 20px 0;display: block;text-align: center;}
+.slack-join {position: absolute;font-weight: normal;font-size: 14px;right: 10px;top: 50%;margin-top: -8px;line-height: 16px;}
+
+.gu-mirror {position: fixed !important;margin: 0 !important;z-index: 9999 !important;opacity: 0.8;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";filter: alpha(opacity=80);}
+.gu-hide {display: none !important;}
+.gu-unselectable {-webkit-user-select: none !important;-moz-user-select: none !important;-ms-user-select: none !important;user-select: none !important;}
+.gu-transit {outline: 1px dotted #000;opacity: 0.2;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";filter: alpha(opacity=20);}
+#right-copy-1tomany .item-box{position: relative;}
+.show-btn{display: none;}
+.show-contant{display: block;}
+#left-copy-1tomany .item-box .show-btn{display: block;width: 100%;}
+#left-copy-1tomany .item-box .show-contant{display: none;}
+#right-copy-1tomany .item-box .show-btn{display: none;}
+#right-copy-1tomany .item-box .show-contant{display: block;}
+.item_coor { width: 10px; height: 10px; overflow: hidden; cursor: se-resize; position: absolute; right: 0; bottom: 0; background-color: #09C; }

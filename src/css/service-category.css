@@ -1,0 +1,35 @@
+/*服务分类页面样式*/
+.main-content{width: 100%;height: 100%;}
+.service-content{background-color: #fff;margin: 8px;border:1px solid #e7eaec;border-top: 5px solid #e7eaec;}
+.service-content h2{font-size: 18px;color: #666;padding: 20px 0 15px 15px;}
+.service-list{padding: 15px;border-top: 2px solid #e7eaec;}
+.service-table {font-size: 14px;}
+.service-table tr td{border-bottom: 1px solid #ddd;height: 42px;line-height: 42px;cursor: pointer;}
+.service-table thead tr td{background-color: #e7eaec;font-weight: bolder;}
+.service-table thead tr td,.service-table tbody tr td{color:#666;padding: 0 0 0 10px;margin:0px;text-align: center;position: relative;}
+.service-table thead tr td span{display:inline-block;width:16px;height:16px;background-image: url(../images/total-icon.gif);background-repeat: no-repeat;vertical-align: middle;}
+.service-table thead tr td .up{background-position: 0px -16px;position: absolute;left: 64px;top:11px;}
+.service-table thead tr td .down{background-position: 0px 0px;position: absolute;left: 64px;top:16px;}
+.service-table tbody tr:nth-child(odd){background-color: #f9f9f9;}
+.service-table tbody tr:hover{background-color: #deeefd;}
+.service-table tbody tr.checkClick{background-color: #deeefd;}
+.service-table tbody tr td a{display: inline-block;width: 40px;height: 25px;line-height: 25px;text-align: center;border:1px solid #ddd;border-radius: 3px;}
+.service-table tbody tr td .update-on{background-color: #3b8cff;color: #fff;border:1px solid #3b8cff;}
+.service-table tbody tr td .del-on{background-color: #e35a53;color: #fff;border:1px solid #e35a53;}
+.service-left{float: left;font-size: 14px;color: #666;padding: 10px 0 20px 15px;}
+.service-left select{width:40px;height:27px;outline: none;border:1px solid #ddd;color: #666;border-radius: 3px;margin: 0 5px;vertical-align: middle;}
+.service-left span{display:inline-block;margin: 0 5px;}
+.service-right{float: right;padding: 10px 15px 20px 0;}
+.service-right a{display: inline-block;width: 30px;height: 30px;line-height: 30px;text-align: center;border: 1px solid #e7eaec;color: #686b6d;font-size: 14px;margin-left: -6px;}
+.service-right .first{margin-left: 0px;border: 1px solid #e7eaec;}
+.service-right .current-on{color: #fff;background-color: #c4dcff;}
+
+/*服务新增接口弹窗页面样式*/
+.service-interface{border-top:1px solid #ddd;padding-top: 20px;text-align: center;}
+.service-interface p{margin: 15px 0 0 0;padding: 0px;position: relative;}
+.service-interface .service-waring{margin-bottom: 40px;padding: 0px;}
+.service-interface p .service-text{font-size: 14px;color: #666;vertical-align: middle;}
+.service-interface p .service-input{width: 334px;height: 33px;line-height:33px;outline: none;border:1px solid #ddd;border-radius: 3px;margin-left: 15px;}
+.service-interface p .service-sumbit{width: 120px;height: 38px;line-height:38px;outline: none;border:1px solid #3b8cff;border-radius: 3px;color: #fff;background-color: #3b8cff;text-align: center;font-size: 14px;}
+.service-interface p span{display:inline-block;font-size: 12px;color: #666;position: absolute;left:80px;top: 40px;}
+.service-interface p span i{display: inline-block;width: 16px;height: 16px;background-image: url(../images/password_icon.png);background-repeat: no-repeat;background-position: -68px -1px;vertical-align: middle;}

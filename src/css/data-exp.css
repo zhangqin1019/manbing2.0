@@ -1,0 +1,139 @@
+.exp-box{
+	width: 60%;
+	min-width: 700px;
+	margin-top: 30px;
+	background-color: #fff;
+}
+.exp-box form{
+	padding-top: 30px;
+}
+.exp-item{
+	margin-bottom: 15px;
+}
+.exp-txt input,.exp-txt select{
+	font-size: 14px;
+	float: left;
+    padding: 7px 5px;
+    height: 34px;
+    border-radius: 2px;
+    color: #999;
+    border: 1px solid #d2d2d2;
+}
+.exp-title{
+	float: left;
+    font-size: 14px;
+    color: #666666;
+    width: 65px;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-top: 4px\9;
+}
+.exp-txt{
+	float: left;
+	margin-left: 10px;
+	width: 80%;
+}
+#tim-sta,#tim-end,#timer{
+	width: 32%;
+	margin-right: 2%;
+	cursor: pointer;
+	background: url(../images/date.png) no-repeat 96% center;
+}
+.exp-txt input{
+    width: 66%;
+    box-sizing: border-box;
+    letter-spacing:2px;
+    margin-left: -7px\9;
+}
+.main-sel{
+	width: 32%;
+	margin-right: 2%;
+}
+.oth-sel{
+	width: 10%;
+	margin-right: 2%;
+}
+#exp-add{
+	width: 8%;
+	color: #b8b8b8;
+	cursor: pointer;
+	background-color:#f2f2f2;
+}
+.selter{
+	float: left;
+	font-size: 14px;
+	width: 40%;
+}
+.selter h3{
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.box div{
+	height: 315px;
+	border: 1px solid #d2d2d2;
+	overflow-y: auto;
+}
+.box:hover{
+	border-color: #c4dcff;
+}
+.box div span{
+	font-size: 14px;
+    color: #999;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+}
+.box div span:hover{
+	background-color: #F7FBFF;
+}
+.span-select{
+	background-color: #F7FBFF;
+}
+.sel-btn{
+	width: 20%;
+	float: left;
+	margin-top: 150px;
+}
+.sel-btn div{
+	width: 60px;
+	height: 30px;
+	border: 1px solid #d2d2d2;
+	font-size: 14px;
+	color: #b8b8b8;
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	margin-bottom: 16px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	margin-left: 25%\9;
+}
+.sel-btn div:hover,#exp-add:hover{
+	background-color: #f7fcff;
+	border-color: #c4dcff;
+	color: #c4dcff;
+}
+.iconfont{
+	vertical-align: middle;
+}
+.exp-sed{
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    width: 120px;
+    height: 38px;
+    border: none;
+    margin-top: 60px;
+    margin-left: 40%;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 3px 10px;
+    background-color: #3b8cff;
+    font-family: "微软雅黑";
+}
+.selter .box{border: 0;height: auto;}
+.selter .box div{overflow-x: hidden;}

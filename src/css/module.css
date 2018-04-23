@@ -1,0 +1,142 @@
+/*浮动设置*/
+.fl{float: left;}
+.fr{float: right;}
+
+/*主要窗体*/
+.common-box{width: 100%;background-color: #FFF;-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);box-shadow: 0 1px 1px rgba(0,0,0,.05);}
+.common-title{height: 30px;padding: 10px 15px;}
+.common-title h2{display: block;float: left;color: #555;line-height: 30px;font-size: 16px;}
+.common-t-right{float: right;line-height: 30px;}
+.common-t-right a{font-size: 12px;color: #98a6ad;margin: 0 0 0 8px;}
+.common-t-right a:hover{color: #097bee;}
+.common-cantent{padding: 15px;}
+
+/*美化滚动条*/
+.zUIpanelScrollBox,.zUIpanelScrollBar{width:6px;top:4px;right:2px;border-radius:5px;}
+.zUIpanelScrollBox{background:black;opacity:0.1;filter:alpha(opacity=10);}
+.zUIpanelScrollBar{background:#000;opacity:0.6;filter:alpha(opacity=60);}
+.nav-wraper .zUIpanelScrollBox,.nav-wraper .zUIpanelScrollBar{width: 0;}
+
+.box div::-webkit-scrollbar{width: 8px;height: 60px;}
+.box div::-webkit-scrollbar-track {background-color: transparent;} /* 滚动条的滑轨背景颜色 */
+.box div::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 0.2);} /* 滑块颜色 */
+.box div::-webkit-scrollbar-button {background-color: transparent;} /* 滑轨两头的监听按钮颜色 */
+
+
+/*拖动改变窗口大小的八个地方的样式*/
+.resizable-e {position: absolute;top: 0;right: -2px;height: 100%;width: 5px;cursor: e-resize;}
+.resizable-s {position: absolute;bottom: -2px;left: 0;height: 5px;width: 100%;cursor: s-resize;}
+.resizable-w {position: absolute;top: 0;left: -2px;height: 100%;width: 5px;cursor: w-resize;}
+.resizable-n {position: absolute;top: -2px;left: 0;height: 5px;width: 100%;cursor: n-resize;}
+.resizable-en {position: absolute;top: -2px;right: -2px;height: 5px;width: 5px;cursor: ne-resize;}
+.resizable-es {position: absolute;bottom: -2px;right: -2px;height: 5px;width: 5px;cursor: se-resize;}
+.resizable-ws {position: absolute;bottom: -2px;left: -2px;height: 5px;width: 5px;cursor: sw-resize;}
+.resizable-wn {position: absolute;top: -2px;left: -2px;height: 5px;width: 5px;cursor: nw-resize;}
+
+
+/*以下是关于弹窗的样式*/
+.modal-title {background: #eee;font-size: 17px;line-height: 30px;text-align: center;border-bottom: 1px solid #ccc;}
+.close-pos-r-t {position: absolute;width: 30px;height: 30px;line-height: 30px;text-align: center;top: 10px;right: 0;}
+.modal-close {cursor: pointer;}
+.text-border {border: #e5e5e5 solid 1px;background: #fff;font-size: 14px;color: #333;padding: 6px 12px;}
+.modal-promot-mess {margin: 13px 0;padding: 13px 25px;font-size: 16px;border-bottom: 1px solid #ccc;}
+.insure-btn-con {text-align: right;}
+.insure-btn-con span {display: inline-block;margin-right: 20px;}
+.insure-btn-con .sure-btn {padding: 6px 15px;color: white;cursor: pointer;background-color: #4b8df8;border: 1px solid #4b8df8;}
+.insure-btn-con .cancel-btn {border: 1px solid #ccc;background-color: #fff;padding: 6px 15px;cursor: pointer;}
+
+/*弹出的所有消息样式*/
+h2{padding:17px;font-size: 18px;color: #666;}
+.command-btn{width:1222px;height: 42px;line-height: 42px;background-color: #f5f5f5;color: #7e7e7e;font-size: 14px;border-top: 1px solid #eaebeb;border-bottom: 1px solid #eaebeb;margin-bottom: 20px;}
+.command-btn span{display:inline-block;line-height: 42px;margin-left: 17px;margin-right: 23px;}
+.command-btn .handle-btn{padding-left: 9px;border: 1px solid #DDDDDD;color: #656565;border-radius: 4px;margin-top: 7px;margin-left: 10px;width: 110px;height: 30px;font-size: 14px;}
+.command-btn .equal{width:70px;}
+.command-btn .click-btn{display: inline-block;width:70px;height:30px;line-height: 30px;border-radius: 4px;text-align: center;margin-bottom: 5px;margin-left: 10px;color: #999999;background: #E7E9EB;}
+.command-btn .click-btn i{margin-right: 4px;vertical-align: middle;}
+.main-content{float: left;width: 1222px;}
+.message-list thead tr,.message-list tbody tr{line-height: 35px;border-bottom: 1px solid #ddd;cursor: pointer;}
+.message-list thead{font-size: 14px;color: #666;background-color: #e7eaec;}
+.message-list thead tr td, .message-list tbody tr td{padding: 0 0 0 12px;text-align: center;position: relative;}
+.message-list tbody tr{font-size: 14px;color: #848484;}
+.message-list tbody tr:nth-child(odd){background-color: #f9f9f9;}
+.message-list tbody tr:hover{background-color: #deeefd;}
+.message-list tbody tr.clickCheck{background-color: #deeefd;}
+.message-list thead tr td span{display:inline-block;width:16px;height:16px;background-image: url(../images/total-icon.gif);background-repeat: no-repeat;vertical-align: middle;}
+.message-list thead tr td .isHandle{background-position: 0px 0px;}
+.message-list thead tr td .remind{background-position: 0px -16px;}
+.message-list thead tr td .classification{background-position: 0px -16px;position: absolute;left: 72px;top:8px;}
+.message-list thead tr td .kind{background-position: 0px 0px;position: absolute;left: 72px;top:15px;}
+.show-left{float: left;font-size: 14px;color: #666;padding: 20px 0 0 20px;}
+.show-left a{text-decoration: none;margin: 0 15px 0 5px;}
+.show-left a select{width: 40px;height: 27px;line-height:27px;color: #666;border:1px solid #DDD;vertical-align: middle;text-align: center;}
+.show-left span{padding: 0 5px;}
+.show-right{float: right;padding: 20px 20px 0 0;}
+.show-right a{display: inline-block;width: 30px;height: 30px;line-height: 30px;text-align: center;border: 1px solid #e7eaec;color: #686b6d;font-size: 14px;}
+.show-right .click-on{color: #fff;background-color: #c4dcff;}
+
+ /*弹出的文档样式*/
+.word-content{border-top: 1px solid #f8f8f8;padding: 20px 20px 0 20px;overflow-y: scroll;height: 395px;}
+.word-content p{color: #666;font-size: 14px;line-height: 30px;}
+
+/*弹出滚动条样式*/
+::-webkit-scrollbar{width: 5px;}
+::-webkit-scrollbar-track {background-color: #c4c4c4;} /* 滚动条的滑轨背景颜色 */
+::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 0.2);} /* 滑块颜色 */
+::-webkit-scrollbar-button {background-color: #fff;} /* 滑轨两头的监听按钮颜色 */
+
+/*信息编辑窗口样式*/
+.editor{border-top: 1px solid #DDD;overflow-y: scroll;height: 395px;margin: 0px;padding: 0px;}
+.l-h-save{background-position: -208px -1px;}
+.editor .title-message{font-size:14px;font-weight:bolder;color: #2a8bef;background-color: #f5f5f5;height: 40px;line-height: 40px;margin-top:10px;border-left: 2px solid #2a8bef;text-indent: 1em;}
+.editor .resultCode{font-size: 14px;color: #666;padding: 10px 0 10px 15px;}
+.editor .resultCode input[type='radio']{margin: 5px 3px 0 15px;}
+.editor .resultCode .redColor{color:#e35a53;}
+.editor .resultCode .greenColor{color: #68b60c;}
+.editor .processing{font-size: 14px;color: #666;padding: 0 0 10px 15px;}
+.editor .processing input[type='text']{margin-top: 5px;width: 755px;height: 90px;border-radius: 3px;outline: none;border:1px solid #DDD;}
+.editor .remindContent{font-size: 14px;color: #666;padding: 15px 0 15px 15px;}
+.editor .remindContent select{font-size: 14px;color: #666;width: 137px;height: 30px;line-height:30px;margin: 0 165px 0 8px;vertical-align: middle;outline: none;border:1px solid #DDD;border-radius: 3px;}
+.editor .event{font-size: 14px;color: #666;padding: 0 0 10px 15px;}
+.editor .event input[type='text']{width: 500px;height: 30px;margin: 0 0 0 32px;border-radius: 3px;outline: none;border:1px solid #DDD;}
+
+
+/*以下是关于form表单的样式*/
+.ft-tbox{padding-top: 40px;}
+.ft-tb-item{height: 35px;padding-bottom: 25px;}
+.ft-tb-title{width: 90px;font-size: 14px;padding-left: 30px;color:#666;float: left;line-height: 35px;}
+.ft-tb-txt{padding-left: 100px;height: 42px;}
+.ft-tb-input{width: 95%;line-height: 35px;height:35px;border: 1px solid #d2d2d2;border-radius: 3px;}
+.ft-tb-input:focus{border: 1px solid #2c9af6;}
+.ft-tb-txt b{color: red;padding-left: 8px;line-height: 35px;}
+.ft-tb-txt .txt-message{font-size: 12px;display: block;padding: 3px 0 0 20px;}
+.ft-tb-txt .success{color: green;}
+.ft-tb-txt .failed{color: red;}
+.ft-submit{display: block;margin-left: 120px;float: left;height: 35px;line-height: 35px;border: 1px solid #d2d2d2;background-color: #fafafa;text-align: center;font-size: 14px;color: #666;border-radius: 3px;padding: 0 30px;}
+.ft-submit:hover{background-color: #f1f1f1;}
+.ft-tb-radio{line-height: 30px;margin: 5px 10px;}
+.ft-tb-label{padding: 0px 25px 0px 5px;color: #666;font-size: 14px;}
+.ft-tb-checkbox{line-height: 30px;margin:0px 10px;}
+
+/*文本编辑器的样式*/
+
+/*以下是关于header导航的样式*/
+.menu-sub{float: left;margin-right: 7px;border:1px solid #E7E9EB;border-radius: 2px;background-color: #fff;}
+.menu-sub a{font-size: 12px;float: left;border-right: 1px solid #E7E9EB;color: #999999;padding: 6px 8px;}
+.menu-sub a:hover{background-color: #f1f1f1;}
+.menu-sub a:last-child{border-right: none;}
+
+/*以下是关于表单标题的样式*/
+.f-title{font-size: 18px;color: #666666;text-align: left;padding: 15px;border-top: 4px solid #e7eaec;border-bottom: 1px solid #e7eaec;}
+
+/*以下是菜单左右移动的样式*/
+.box{width: 223px;height: 424px;float: left;border: 1px solid #ddd;}
+.role-warp{float: left;width: 225px;}
+.role-warp h4{font-size: 16px;color: #666666;text-align: center;margin-bottom: 10px;}
+.middleBox{width: 88px;padding: 203px 0 0 0;}
+.middleBox .btn{display: block;color: #B7B7B7;margin: 0 0 16px 14px;font-size: 14px;width: 60px;height: 30px;background: #E9EBEB;border: 0;border-radius: 4px;}
+.middleBox .btn i{font-size: 14px;}
+.middleBox .btn:hover{background: #F7FBFF;color: #C3DBFF;}
+.box span{display: block;width: 219px;height: 30px;font-size: 14px;color: #999999;line-height: 30px;padding-left: 4px;}
+.box span:hover{background: #F7FBFF;}
+.span-select{background: #F7FBFF;}
+

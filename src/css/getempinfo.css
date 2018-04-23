@@ -1,0 +1,102 @@
+body{
+    background-color: #eff3f6;
+}
+.getempinfo{
+	width: 96%;
+	background-color: #fff;
+	margin: 0 auto;
+	min-width: 960px;
+	padding-bottom: 80px;
+}
+.getempinfo form{
+	padding-top: 20px;
+}
+.emp-pub{
+	font-size: 14px;
+	color: #666666;
+	font-family: "微软雅黑";
+	padding: 4px;
+	resize:none;
+	border-radius: 2px;
+	box-sizing: border-box;
+    border: 1px solid #d2d2d2;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-ms-appearance:none;
+}
+.emp-item{
+	margin-bottom: 17px;
+}
+.emp-header{
+	width: 96%;
+	margin: 10px auto;
+	min-width: 960px;
+}
+.e-h-icon{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/header_icon.png);
+	background-repeat: no-repeat;
+	padding: 0 2px;
+	vertical-align: middle;
+}
+.e-h-sav{
+	background-position: -208px 0px;
+}
+.e-h-imp{
+	background-position: -26px 0px;
+}
+.e-h-pri{
+	background-position: -130px 0px;
+}
+.emp-ind{
+	width: 100%;
+}
+.e-f-title{
+	float: left;
+    font-size: 14px;
+    color: #666666;
+    width: 65px;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-top: 4px\9;
+}
+.e-f-text{
+	float: left;
+	margin-left: 10px;
+	width: 60%;
+}
+.emp-lse{
+	width: 35%;
+	margin-right: 1%;
+}
+.emp-rse{
+	width: 64%;
+	margin-left: -6px;
+}
+.emp-mod{
+	width: 100%;
+	margin-left: -9px\9;
+}
+.emp-are{
+	width: 100%;
+	height: 90px;
+	overflow:hidden;
+	margin-left: -9px\9;
+}
+/*ie8 hack*/
+:root .emp-are,:root .emp-mod{
+	margin-left: 0;
+}
+.e-f-text select{
+	background: url('../images/arrow2.png') no-repeat right 4px;
+}
+.e-f-text select:focus{
+	border-color: #c4dcff;
+	background: #f7fcff url('../images/arrow1.png') no-repeat right 3px;
+}
+.emp-pub:focus{
+	border-color: #c4dcff;
+}

@@ -1,0 +1,87 @@
+<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+<link rel="stylesheet" type="text/css" href="../css/data-exp.css"/>
+<link rel="stylesheet" type="text/css" href="../css/module.css"/>
+<link rel="stylesheet" type="text/css" href="../css/daterangepicker.css"/>
+<!-- star 导出数据信息页面 -->
+<div class="exp-box">
+	<h3 class="f-title">数据导出</h3>
+	<form>
+        <div class="exp-item fixed">
+             <div class="exp-title">创建时间</div>
+             <div class="exp-txt fixed two-inputs">
+                   <input type="text" name="" id="tim-sta" placeholder="起始时间">
+                   <input type="text" name="" id="tim-end" placeholder="结束时间">
+             </div>
+        </div>
+        <div class="exp-item fixed">
+             <div class="exp-title">科室病种</div>
+             <div class="exp-txt"><input type="text" name=""></div>
+        </div>
+         <div class="exp-item fixed">
+             <div class="exp-title"></div>
+             <div class="exp-txt fixed">
+                  <div class="selter leftbox">
+                      <h3>未选中项</h3>
+                      <div class="box">
+                        <div>
+                          <span>管理员</span>
+                          <span>访问者</span>
+                          <span>个人用户</span>
+                          <span>企业用户</span>
+                          <span>医生</span>
+                          <span>护士</span>
+                          <span>管理员</span>
+                          <span>访问者</span>
+                          <span>个人用户</span>
+                          <span>企业用户</span>
+                          <span>医生</span>
+                          <span>护士</span>
+                        </div>
+	                   </div>
+                  </div>
+                  <div class="sel-btn">
+                          <div class="moveIn">添加<i class="iconfont">&#xe65f;</i></div>
+                          <div class="moveOut"><i class="iconfont">&#xe660;</i>移出</div>
+                  </div>
+                  <div class="selter rightbox">
+                      <h3>选中项</h3>
+                      <div class="box">
+                        <div>
+                          <span>个人健康档案</span>
+                        </div>
+                     </div>
+                  </div>
+             </div>
+        </div>
+         <div class="exp-item fixed">
+             <div class="exp-title">复合条件</div>
+             <div class="exp-txt fixed">
+                  <select class="main-sel">
+                     <option>111</option>
+                  </select>
+                  <select class="main-sel">
+                     <option>111</option>
+                  </select>
+             </div>
+        </div>
+         <div class="exp-item fixed">
+             <div class="exp-title"></div>
+             <div class="exp-txt fixed">
+                  <select class="oth-sel">
+                     <option>111</option>
+                  </select>
+                  <select class="main-sel">
+                     <option>111</option>
+                  </select>
+                  <select class="oth-sel">
+                     <option>111</option>
+                  </select>
+                  <input type="text" name="" id="timer" placeholder="时间">
+                  <input type="button" name="" id="exp-add" value="添加">
+             </div>
+        </div>
+        <input type="submit" name="" value="多表导出提交" class="exp-sed">
+	</form>
+</div>
+<script type="text/javascript" src="../js/libs/require.js" data-main="../js/dataexp"></script>

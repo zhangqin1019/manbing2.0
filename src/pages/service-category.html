@@ -1,0 +1,115 @@
+<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+<link rel="stylesheet" type="text/css" href="../css/module.css"/>
+<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+<link rel="stylesheet" type="text/css" href="../css/service-category.css"/>
+
+<!--start content-->
+<div class="main-content">
+	<!-- start菜单条 -->
+	<div class="list-header fixed">
+        <div class="menu-sub fixed">
+        	<a href="javascript:void(0);" class="add-interface"><i class="l-h-add l-h-icon"></i>新增</a>
+        	<a href="javascript:void(0);"><i class="l-h-del l-h-icon"></i>删除</a>
+        </div>
+    </div>
+	<!-- end菜单条 -->
+	<!-- start服务分类内容 -->
+	<div class="service-content">
+		<h2>管理：服务分类(F115)</h2>
+		<!--  start分类表格  -->
+		<div class="service-list">
+			<table class="service-table">
+				<thead>
+					<tr>
+						<td><input type="checkbox"/></td>
+						<td>编码<span class="up"></span><span class="down"></span></td>
+						<td>名称</td>
+						<td>描述</td>
+						<td>权限</td>
+						<td>分值</td>
+						<td>修改</td>
+						<td>删除</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="checkbox"/></td>
+						<td>1</td>
+						<td>病人主索引接口</td>
+						<td>病人主索引接口</td>
+						<td>0</td>
+						<td>0.00</td>
+						<td><a href="javascript:void(0);">修改</a></td>
+						<td><a href="javascript:void(0);">删除</a></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"/></td>
+						<td>2</td>
+						<td>短信网关接口</td>
+						<td>短信网关接口</td>
+						<td>0</td>
+						<td>0.00</td>
+						<td><a href="javascript:void(0);">修改</a></td>
+						<td><a href="javascript:void(0);">删除</a></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"/></td>
+						<td>3</td>
+						<td>检查检验报告查询接口</td>
+						<td>检查检验报告查询接口</td>
+						<td>0</td>
+						<td>0.00</td>
+						<td><a href="javascript:void(0);">修改</a></td>
+						<td><a href="javascript:void(0);">删除</a></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"/></td>
+						<td>4</td>
+						<td>预约挂号系统接口</td>
+						<td>预约挂号系统接口</td>
+						<td>0</td>
+						<td>0.00</td>
+						<td><a href="javascript:void(0);" class="update-on">修改</a></td>
+						<td><a href="javascript:void(0);" class="del-on">删除</a></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"/></td>
+						<td>5</td>
+						<td>住院病人接口</td>
+						<td>住院病人接口</td>
+						<td>0</td>
+						<td>0.00</td>
+						<td><a href="javascript:void(0);">修改</a></td>
+						<td><a href="javascript:void(0);">删除</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!--  end分类表格  -->
+		<div class="service-bottom fixed">
+			<!-- start显示记录 -->
+			<div class="service-left fixed">
+				每页显示<select><option>10</option></select>当前页为<span>1</span>至<span>5</span>记录
+			</div>
+			<!-- end显示记录 -->
+			<!-- start翻页 -->
+			<div class="service-right fixed">
+				<a href='javascript:void(0);' class="first">&lt;</a>
+				<a href='javascript:void(0);' class='current-on'>1</a>
+				<a href='javascript:void(0);'>2</a>
+				<a href='javascript:void(0);'>3</a>
+				<a href='javascript:void(0);'>4</a>
+				<a href='javascript:void(0);'>5</a>
+				<a href='javascript:void(0);'>6</a>
+				<a href='javascript:void(0);'>...</a>
+				<a href='javascript:void(0);'>65</a>
+				<a href='javascript:void(0);'>&gt;</a>
+			</div>
+			<!-- end翻页 -->
+		</div>
+	</div>
+	<!-- end服务分类内容 -->
+</div>
+<!--end content-->
+
+<script type="text/javascript" src="../js/libs/require.js" data-main="../js/service-category"></script>
